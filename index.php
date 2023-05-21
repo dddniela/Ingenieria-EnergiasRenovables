@@ -33,7 +33,7 @@ $comunidad->setConnection($conn->getDB());
 
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/style.css">
-    <title>Ingeniería Quimica</title>
+    <title>Ingeniería en Energías Renovables</title>
 </head>
     <?php
         include_once "src/View/header.php";  
