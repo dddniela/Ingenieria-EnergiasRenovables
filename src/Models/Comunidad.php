@@ -16,9 +16,9 @@ class Comunidad
         $this->connection = $conn;
     }
 
-    public function setId($id)
+    public function setId($id_comunidad)
     {
-        $this->id = $id;
+        $this->id_comunidad = $id_comunidad;
     }
 
     public function getId()

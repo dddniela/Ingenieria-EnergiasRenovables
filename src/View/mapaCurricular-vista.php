@@ -4,7 +4,7 @@
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning">Mapa Curricular</h1>
-                <h1 class="fw-bold text-light d-md-flex d-none">Ingeniería en Sistemas Computacionales</h1>
+                <h1 class="fw-bold text-light d-md-flex d-none">Ingeniería Química</h1>
             </div>
         </div>
     </div>
@@ -252,9 +252,9 @@
                                 existido:</h5>
                             <div class="bg-dark">
                                 <ul class="m-3 text-light font-bold" style="text-align: justify">
-                                    <li>Ingeniería de Procesos</li>
-                                    <li>Alimentos</li>
-                                    <li>Gestión Ambiental</li>
+                                    <?php
+                                        echo $especialidad->imprimirNombres();
+                                    ?>
                                 </ul>
                             </div>
                         </div>
@@ -271,120 +271,30 @@
         </div>
     </section>
 
-    <!-- <div class="darkSection bg-dark">
-        <h2 class="titleDarkSection text-center font-bold">Concurrencia Computacional Avanzada</h2>
-        <div class="darkSectionSeparator"></div>
-        <div class="bg-zinc-300" id="tab-especialidad">
-            <div class="container">
-                <?php
-
-                echo $materia->imprimirEspecialidad();
-
-                ?>
-            </div>
-        </div>
-    </div> -->
-
     <div class="w-full darkSection bg-dark">
-    <ul class="nav nav-pills nav-fill justify-content-center mb-3 d-flex d-sm-none" id="pills-tab" role="tablist">
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                aria-expanded="false">Selecciona la especialidad</a>
-            <ul class="dropdown-menu">
-                <li>
-                    <a class="dropdown-item" id="tab-especialidad1-tab" data-bs-toggle="pill"
-                        data-bs-target="#tab-especialidad1" type="button" aria-controls="tab-especialidad1"
-                        aria-selected="false">Ingeniería de Procesos</a>
-                </li>
-                <li>
-                    <button class="dropdown-item" id="tab-especialidad2-tab" data-bs-toggle="pill"
-                        data-bs-target="#tab-especialidad2" type="button" aria-controls="tab-especialidad2"
-                        aria-selected="false">Alimentos</button>
-                </li>
-                <li>
-                    <button class="dropdown-item" id="tab-especialidad3-tab" data-bs-toggle="pill"
-                        data-bs-target="#tab-especialidad3" type="button" aria-controls="tab-especialidad3"
-                        aria-selected="false">Gestión Ambiental</button>
-                </li>
-            </ul>
-        </li>
-    </ul>
+        <ul class="nav nav-pills nav-fill justify-content-center mb-3 d-flex d-sm-none" id="pills-tab" role="tablist">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Selecciona la especialidad</a>
+                <ul class="dropdown-menu">
+                    <?php
+                        echo $especialidad->imprimirDropdown();
+                    ?>
+                </ul>
+            </li>
+        </ul>
 
-    <ul class="nav nav-pills nav-fill justify-content-center mx-5 d-none d-sm-flex" id="pills-tab" role="tablist">
-        <li class="especial nav-item" role="presentation">
-            <button class="especial nav-link active" id="tab-especialidad1-tab" data-bs-toggle="pill" data-bs-target="#tab-especialidad1"
-                type="button" role="tab" aria-controls="tab-especialidad1" aria-selected="true">Ingeniería de Procesos</button>
-        </li>
-        <li class="especial nav-item" role="presentation">
-            <button class="especial nav-link" id="tab-especialidad2-tab" data-bs-toggle="pill" data-bs-target="#tab-especialidad2"
-                type="button" role="tab" aria-controls="tab-especialidad2" aria-selected="false">Alimentos</button>
-        </li>
-        <li class="especial nav-item" role="presentation">
-            <button class="especial nav-link" id="tab-especialidad3-tab" data-bs-toggle="pill" data-bs-target="#tab-especialidad3"
-                type="button" role="tab" aria-controls="tab-especialidad3" aria-selected="false">Gestión Ambiental</button>
-        </li>
-    </ul>
-    <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="tab-especialidad1" role="tabpanel" aria-labelledby="tab-especialidad1-tab">
-        <h2 class="titleDarkSection text-center font-bold my-4">Ingeniería de Procesos</h2>
-            <div class="container">
-                <?php
-
-                echo $materia->imprimirEspecialidad();
-
-                ?>
-            </div>
+        <ul class="nav nav-pills nav-fill justify-content-center mx-5 d-none d-sm-flex" id="pills-tab" role="tablist">
+            <?php
+                echo $especialidad->imprimirNavPills();
+            ?>
+        </ul>
+       
+        <div class="tab-content" id="pills-tabContent">
+            <?php
+                echo $especialidad->imprimirPills();
+            ?>
         </div>
-        <div class="tab-pane fade" id="tab-especialidad2" role="tabpanel" aria-labelledby="tab-especialidad2-tab">
-        <h2 class="titleDarkSection text-center font-bold my-4">Alimentos</h2>
-            <div class="container">
-                <?php
-
-                echo $materia->imprimir2doSemestre();
-
-                ?>
-            </div>
-        </div>
-        <div class="tab-pane fade" id="tab-especialidad3" role="tabpanel" aria-labelledby="tab-especialidad3-tab">
-        <h2 class="titleDarkSection text-center font-bold my-4">Gestión Ambiental</h2>
-            <div class="container">
-                <?php
-
-                echo $materia->imprimir3erSemestre();
-
-                ?>
-            </div>
-        </div>
-    </div>
-
-    <div class='modal fade' id='modalReticula' tabindex='-1' aria-labelledby='modalReticula' aria-hidden='true'>
-        <div class='modal-dialog modal-lg'>
-            <div class='modal-content'>
-                <div class='modal-header azul-medio'>
-                    <h5 class='modal-title text-white font-semibold' id='modalTitulo'></h5>
-                    <button type='button' class='btn-close text-white' data-bs-dismiss='modal'
-                        aria-label='Close'></button>
-                </div>
-                <div class='modal-body'>
-                    <div class='d-flex justify-content-center mb-4' style='text-align: justify;'>
-                        <p id="descReticula"></p>
-                    </div>
-                    <div class='d-flex justify-content-center my-2'>
-                        <iframe class='aspect-video video-reticula' id='videoReticula' src=''
-                            title='YouTube video player' frameborder='0'
-                            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                            allowfullscreen>
-                        </iframe>
-                    </div>
-                    <div class='d-flex p-2 justify-content-center align-items-center'>
-                        <a target='_blank' href='' id="urlReticula"><button type='button'
-                                class='btn btn-warning font-bold'>Descargar programa</button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 </div>
 
 </div>

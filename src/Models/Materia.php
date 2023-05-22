@@ -1,16 +1,20 @@
 <?php
 
 require_once "Conexion.php";
+$carreraID = 3;
 
 class Materia
 {
-	private $id_materia;
-    private $area_materia;
-    private $semestre_materia;
-    private $descripcion_materia;
-    private $especialidad_materia;
-    private $url_materia;
-    private $url_programa;
+	private $materiaId;
+	private $carreraId;
+    private $especialidadId;
+    private $nombre;
+    private $area;
+    private $semestre;
+    private $competencia;
+    private $urlVideo;
+    private $urlPrograma;
+    private $status;
     private $connection;
 
     public function setConnection($conn)
@@ -73,7 +77,7 @@ function icono($Area){
 
 function imprimir($NumeroSemestre){
     $cn = $this->connection;
-    $sqlQ = "SELECT * FROM materia where semestre_materia='$NumeroSemestre' and especialidad_materia=0";
+    $sqlQ = "SELECT * FROM tbl_materia WHERE semestre=$NumeroSemestre AND especialidadId IS NULL AND carreraId=" .$GLOBALS['carreraID'] .";";
     $ResultSet = $cn->query($sqlQ); 
    
     $tabla = "";
@@ -82,19 +86,19 @@ function imprimir($NumeroSemestre){
         
         $tabla .= "<div class='row justify-content-md-start justify-content-center'>";
         while($row = $ResultSet->fetch_assoc()){
-            $id_materia = $row['id_materia'];
-            $nombre_materia = $row['nombre_materia'];
-            $descrip_materia = $row['descripcion_materia'];
-            $area_materia = $row['area_materia'];
-            $url_materia = $row['url_materia'];
-            $url_programa = $row['url_programa'];
-            $ruta_img = $this->icono($area_materia);
+            $materiaId = $row['materiaId'];
+            $nombre = $row['nombre'];
+            $competencia = $row['competencia'];
+            $area = $row['area'];
+            $urlVideo = $row['urlVideo'];
+            $urlPrograma = $row['urlPrograma'];
+            $ruta_img = $this->icono($area);
 
             // Cuadro de materia
             $tabla .= "<div class='col-lg-4 col-md-6 col-sm-9 col-9 p-4 h-100 justify-content-center rounded-3'>
                 <div class='row azul-medio' style='height: 88px;'>
                     <div class='d-flex justify-content-center h-100'>
-                        <h5 class='text-white align-self-center rounded-top text-center font-semibold py-3'>$nombre_materia</h5>
+                        <h5 class='text-white align-self-center rounded-top text-center font-semibold py-3'>$nombre</h5>
                     </div>
                 </div>
                 <div class='row bg-light overflow-hidden d-none d-sm-flex' style='height: 110px;'>
@@ -105,7 +109,7 @@ function imprimir($NumeroSemestre){
                     </div>
                     <div class='col-md-9 col-12 justify-content-center align-items-center'>
                         <div class='d-flex flex-row justify-content-center align-items-center h-100 text-wrap'>
-                            <p class='text-sm mx-4 my-2' style='text-align: justify;'>$descrip_materia</p>
+                            <p class='text-sm mx-4 my-2' style='text-align: justify;'>$competencia</p>
                         </div>
                     </div>
                 </div>  
@@ -114,11 +118,11 @@ function imprimir($NumeroSemestre){
                         <div class='d-flex p-2 justify-content-center align-items-center'>
                         <button type='button' class='btn btn-warning font-bold' data-bs-toggle='modal'
                             data-bs-target='#modalReticula' 
-                                    data-materia ='$nombre_materia' 
-                                    data-videoMateria ='$url_materia' 
-                                    data-descMateria ='$descrip_materia'
-                                    data-urlMateria ='$url_programa'
-                                    data-id='$id_materia'
+                                    data-materia ='$nombre' 
+                                    data-videoMateria ='$urlVideo' 
+                                    data-descMateria ='$competencia'
+                                    data-urlMateria ='$urlPrograma'
+                                    data-id='$materiaId'
                                     onclick='youtubePlay(this)'>
                                     Ver más </button>
                                 </div>
@@ -135,44 +139,46 @@ function imprimir($NumeroSemestre){
 }
 
 function imprimir1erSemestre(){
-    return $this->imprimir("1");
+    return $this->imprimir(1);
 }
 
 function imprimir2doSemestre(){
-    return $this->imprimir("2");
+    return $this->imprimir(2);
 }
 
 function imprimir3erSemestre(){
-    return $this->imprimir("3");
+    return $this->imprimir(3);
 }
 
 function imprimir4toSemestre(){
-    return $this->imprimir("4");
+    return $this->imprimir(4);
 }
 
 function imprimir5toSemestre(){
-    return $this->imprimir("5");
+    return $this->imprimir(5);
 }
 
 function imprimir6toSemestre(){
-    return $this->imprimir("6");
+    return $this->imprimir(6);
 }
 
 function imprimir7moSemestre(){
-    return $this->imprimir("7");
+    return $this->imprimir(7);
 }
 
 function imprimir8voSemestre(){
-    return $this->imprimir("8");
+    return $this->imprimir(8);
 }
 
 function imprimir9noSemestre(){
-    return $this->imprimir("9");
+    return $this->imprimir(9);
 }
 
 function imprimirEspecialidad(){
     $cn = $this->connection;
-    $sqlQ = "SELECT * FROM materia where area_materia='Especialidad'";
+    $sqlQ = "SELECT * FROM tbl_especialidad WHERE carreraId=" .$GLOBALS['carreraID'] .";";
+    $especialidades = $cn->query($sqlQ); 
+    $sqlQ = "SELECT * FROM tbl_materia WHERE area='Especialidad' AND carreraId=" .$GLOBALS['carreraID'] .";";
     $ResultSet = $cn->query($sqlQ); 
    
     $tabla = "";
@@ -182,18 +188,18 @@ function imprimirEspecialidad(){
         $ruta_img = ['img/iconos/concurrentes.PNG','img/iconos/distribuidas.PNG','img/iconos/concurrentes.PNG','img/iconos/distribuidas.PNG','img/iconos/blockchain.PNG','img/iconos/distribuidas.PNG'];
         $i = 0;
         while($row = $ResultSet->fetch_assoc()){
-            $id_materia = $row['id_materia'];
-            $nombre_materia = $row['nombre_materia'];
-            $descrip_materia = $row['descripcion_materia'];
-            $area_materia = $row['area_materia'];
-            $url_materia = $row['url_materia'];
-            $url_programa = $row['url_programa'];
+            $materiaId = $row['materiaId'];
+            $nombre = $row['nombre'];
+            $competencia = $row['competencia'];
+            $area = $row['area'];
+            $urlVideo = $row['urlVideo'];
+            $urlPrograma = $row['urlPrograma'];
 
             // Cuadro de materia
             $tabla .= "<div class='col-lg-4 col-md-6 col-sm-9 col-9 p-4 h-100 justify-content-center rounded-3'>
                 <div class='row azul-medio' style='height: 88px;'>
                     <div class='d-flex justify-content-center h-100'>
-                        <h5 class='text-white align-self-center rounded-top text-center font-semibold py-3'>$nombre_materia</h5>
+                        <h5 class='text-white align-self-center rounded-top text-center font-semibold py-3'>$nombre</h5>
                     </div>
                 </div>
                 <div class='row bg-light overflow-hidden d-none d-sm-flex' style='height: 110px;'>
@@ -204,7 +210,7 @@ function imprimirEspecialidad(){
                     </div>
                     <div class='col-md-9 col-12 justify-content-center align-items-center'>
                         <div class='d-flex flex-row justify-content-center align-items-center h-100 text-wrap'>
-                            <p class='text-sm mx-4 my-2' style='text-align: justify;'>$descrip_materia</p>
+                            <p class='text-sm mx-4 my-2' style='text-align: justify;'>$competencia</p>
                         </div>
                     </div>
                 </div>  
@@ -213,11 +219,11 @@ function imprimirEspecialidad(){
                         <div class='d-flex p-2 justify-content-center align-items-center'>
                         <button type='button' class='btn btn-warning font-bold' data-bs-toggle='modal'
                             data-bs-target='#modalReticula' 
-                                    data-materia ='$nombre_materia' 
-                                    data-videoMateria ='$url_materia' 
-                                    data-descMateria ='$descrip_materia'
-                                    data-urlMateria ='$url_programa'
-                                    data-id='$id_materia'
+                                    data-materia ='$nombre' 
+                                    data-videoMateria ='$urlVideo' 
+                                    data-descMateria ='$competencia'
+                                    data-urlMateria ='$urlPrograma'
+                                    data-id='$materiaId'
                                     onclick='youtubePlay(this)'>
                                     Ver más </button>
                                 </div>
