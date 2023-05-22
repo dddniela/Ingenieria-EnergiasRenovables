@@ -26,14 +26,13 @@ $comunidad->setConnection($conn->getDB());
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Ingenieria, Sistemas, Sistemas Computacionales">
-    <meta name="author" content="Daniela Castro Rodriguez, Irving Josue Naranjo Paredes, Angel Sánchez Domínguez, 
-    Gabriel Escobar Medina, Nancy Daniela Mendez Arpidez, Marco Gabriel Cortes Toledo, Yelitza Magali Rosas Jimenez,
-    Ángel Manuel Sandria Pérez, Karla Mariana Cordova Vasquez, Iván de Jesús Agame Malpica">
+    <meta name="author" content="Daniela Castro Rodriguez, Gabriel Escobar Medina, 
+    Nancy Daniela Mendez Arpidez, Marco Gabriel Cortes Toledo, Yelitza Magali Rosas Jimenez">
     <link rel="icon" href="img/itver-logo.PNG"/>
 
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/style.css">
-    <title>Ingeniería Quimica</title>
+    <title>Ingeniería en Energias Renovables</title>
 </head>
     <?php
         include_once "src/View/header.php";  
