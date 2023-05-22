@@ -5,7 +5,7 @@
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning">Perfil de Egreso</h1>
-                <h1 class="fw-bold text-light d-md-flex d-none">Ingeniería en Sistemas Computacionales</h1>
+                <h1 class="fw-bold text-light d-md-flex d-none">Ingeniería en Energías Renovables</h1>
             </div>
         </div>
     </div>
@@ -45,10 +45,12 @@
                         <div class="sectionSeparator"></div>
                     </div>
                     <div class="col-12" style="text-align: center;">
-                        <p style="text-align: justify;"> Formar profesionistas líderes con visión
-                            estratégica y amplio sentido ético; capaz de diseñar, desarrollar, implementar y administrar tecnología
-                            computacional para aportar soluciones innovadoras en beneficio de la sociedad; en un contexto global,
-                            multidisciplinario y sostenible.
+                        <p style="text-align: justify;"> 
+                            Formar profesionales que desarrollen proyectos de generación, transformación, almacenamiento y 
+                            gestión de energía proveniente de fuentes renovables; competentes en el diseño, implementación y 
+                            evaluación de tecnologías limpias para el uso eficiente de la energía en el entorno nacional e 
+                            internacional. 
+
                         </p>
                     </div>
                 </div>
@@ -56,68 +58,8 @@
         </div>
     </div>
 </section>
+
 <!--Fin Objetivo general -->
-
-<!-- Objetivos Educacionales -->
-<div class="informationContainer">
-        <div class="row g-0 align-items-center">
-            <div class="col-lg-12">
-                <!-- Puntos del perfil de egreso -->
-                <section class="lightSection bg-light p-2">
-                    <h2 class="sectionTitle text-center font-bold m-3">Objetivos educacionales</h2>
-                    <div class="sectionSeparator"></div>
-                    <p class="p-3" style="text-align: justify;">Los siguientes objetivos educacionales del programa educativo en Ingeniería Química 
-                        se refieren a los conocimientos, habilidades, actitudes y valores que los egresados alcanzan 
-                        en un plazo de 5 años después de su egreso del programa.</p>
-
-                    <div class="row g-0">
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-4 mx-4" style="float: left;" src="img/iconos/1.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">El egresado es un profesional competente que colabora en equipos interdisciplinarios 
-                                    y multidisciplinarios como gerentes, superintendentes, coordinadores, jefes de departamento, 
-                                    operarios y supervisores en el ámbito laboral de la ingeniería química y función pública y privada.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-5 mx-4" style="float: left;" src="img/iconos/2.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">El egresado es un profesionista competente con el conocimiento científico 
-                                    y las habilidades técnicas para desempeñarse en los campos de la investigación, diseño, mejora, 
-                                    desarrollo de procesos, formulación y evaluación de proyectos, gestión logística, 
-                                    planteamiento y control de operaciones en empresas de sectores públicos y privados.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-5 mx-4" style="float: left;" src="img/iconos/3.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">El egresado es un profesional competente que comunica información técnica de modo efectivo, 
-                                    para todo tipo de sectores, interactuando incluso en grupos multidisciplinarios e incorporando nuevas 
-                                    tecnologías que contribuyen al progreso y desarrollo en su actividad profesional, asumiendo así un rol proactivo.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-4 mx-4" style="float: left;" src="img/iconos/4.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">El egresado es un profesional competente que ejerce su profesión con actitud 
-                                    responsable y un profundo sentido ético,  respeto a la normativa social y 
-                                    a los sistemas de gestión inherente a su práctica profesional.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Fin Puntos del perfil de egreso -->
-
-            </div>
-        </div>
-    </div>
-<!-- Fin Objetivos Educacionales-->
-
 
 <!-- Perfil de egreso -->
 <div class="informationContainer">
@@ -129,85 +71,74 @@
                 <div class="sectionSeparator"></div>
 
                 <div class="row g-0">
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                    <div class="col-lg-3 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/iconos/ingenieria.PNG" alt="">
-                            <p class="textoArea">Implementa aplicaciones computacionales para solucionar problemas de
-                                diversos contextos,
-                                integrando diferentes tecnologías, plataformas o dispositivos.</p>
+                            <p class="textoArea">Formula, evalúa y gestiona estrategias en proyectos de energía renovable con base a la 
+                                normatividad vigente, para promover la eficiencia y la sustentabilidad energética. </p>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                    <div class="col-lg-3 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/topicos/ing-software-icono.PNG" alt="">
-                            <p class="textoArea">Diseña, desarrolla y aplica modelos computacionales para solucionar
-                                problemas, mediante
-                                la selección y uso de herramientas matemáticas.</p>
+                            <p class="textoArea">Diseña e implementa sistemas energéticos renovables para promover la competitividad de los 
+                                sectores productivos. </p>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                    <div class="col-lg-3 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/iconos/redes.PNG" alt="">
-                            <p class="textoArea">Diseña, configura y administra redes de computadoras para crear soluciones de
-                                conectividad en la organización, aplicando las normas y estándares vigentes.
+                            <p class="textoArea">Analiza y evalúa la factibilidad de implementar procesos derivados de actividades de 
+                                transformación y producción para el tratamiento de subproductos orgánicos. 
                             </p>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                    <div class="col-lg-3 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/topicos/admon-bd-icono.PNG" alt="">
-                            <p class="textoArea">Diseña e implementa interfaces para la implementación y automatización
-                                de sistemas de hardware y
-                                desarrollo del software asociado.</p>
+                            <p class="textoArea">Diseña, implementa y evalúa sistemas de generación eléctrica con fuentes alternativas 
+                                para operar de forma aislada o interconectada a la red eléctrica.</p>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                    <div class="col-lg-3 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/topicos/programacion-web-icono.PNG" alt="">
-                            <p class="textoArea">Coordina y participa en equipos multidisciplinarios para la aplicación
-                                de soluciones
-                                innovadoras en diferentes contextos del mundo laboral.</p>
+                            <p class="textoArea">Aplica habilidades para establecer su propia empresa contribuyendo al desarrollo social, 
+                                económico, tecnológico y ambiental de su entorno. </p>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                    <div class="col-lg-3 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/iconos/distribuidas.PNG" alt="">
-                            <p class="textoArea">Diseña, implementa y administra bases de datos optimizando los recursos
-                                disponibles,
-                                bajo las normas de manejo y seguridad de la información.</p>
+                            <p class="textoArea">Diseña proyectos de investigación, desarrollo e innovación tecnológica, relacionados 
+                                con la energía proveniente de fuentes renovables para optimizar los recursos energéticos. </p>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                    <div class="col-lg-3 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/iconos/administracion.PNG" alt="">
-                            <p class="textoArea">Desarrolla y administra software para apoyar la productividad y competitividad de
-                                las organizaciones cumpliendo con estándares de calidad.</p>
+                            <p class="textoArea">Identifica y evalúa el recurso energético renovable disponible en el entorno para la 
+                                producción de energía con calidad. </p>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                    <div class="col-lg-3 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/iconos/blockchain.PNG" alt="">
-                            <p class="textoArea">Evalúa tecnologías de hardware para soportar aplicaciones de manera efectiva.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/programacion.PNG" alt="">
-                            <p class="textoArea">Detecta áreas de oportunidad empleando una visión empresarial para crear proyectos
-                                aplicando las Tecnologías de la Información y Comunicación.</p>
+                            <p class="textoArea">Contribuye al desarrollo de transferencia de tecnologías limpias a los sectores productivos 
+                                para prevenir y mitigar los efectos del cambio climático.</p>
                         </div>
                     </div>
 
                 </div>
             </section>
+            
             <!-- Fin Puntos del perfil de egreso -->
 
         </div>

@@ -6,7 +6,7 @@
       <div class="d-flex flex-column justify-content-center align-items-center text-center">
         <h1 class="fw-bold text-warning">Conócenos</h1>
         <h1 class="fw-bold text-light d-md-flex d-none">
-          Ingeniería en Sistemas Computacionales
+          Ingeniería en Energías Renovables
         </h1>
       </div>
     </div>
@@ -29,7 +29,7 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Departamento de Sistemas y Computación</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">Departamento de Eléctrica - Electrónica</h2>
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
@@ -155,7 +155,7 @@
             </h2>
             <div class="separadorSeccionOscura"></div>
             <h4 class="text-center text-light fw-bold fs-3">
-              Laboratorios de cómputo
+              Sala de sistemas fotovoltaicos
             </h4>
           </div>
           <div class="col-12">
@@ -314,8 +314,8 @@
 <div class="p-4 text-center">
   <h5 class="font-bold">Autores de la página:</h5>
     <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
-    <p>Daniela Castro Rodriguez, Irving Josue Naranjo Paredes, Angel Sánchez Domínguez, 
-    Gabriel Escobar Medina, Nancy Daniela Mendez Arpidez, Marco Gabriel Cortés Toledo, Yelitza Magali Rosas Jiménez,
-    Ángel Manuel Sandria Pérez, Karla Mariana Cordova Vasquez e Iván de Jesús Agame Malpica</p>
+    <p>Daniela Castro Rodriguez, Gabriel Escobar Medina, 
+       Nancy Daniela Mendez Arpidez, Marco Gabriel Cortés Toledo, Yelitza Magali Rosas Jiménez
+    </p>
 </div>
 <!-- Fin Laboratorio de cómputo intensivo -->
