@@ -4,6 +4,7 @@ require_once("src/Models/Conexion.php");
 require_once "src/Models/Docente.php";
 require_once("src/Models/Materia.php");
 require_once("src/Models/Comunidad.php");
+require_once("src/Models/Especialidad.php");
 $url = $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
 
 $urlControl = array(
@@ -11,6 +12,8 @@ $_SERVER['SERVER_NAME']."/Energias-Renovables/",
 $_SERVER['SERVER_NAME']."/Energias-Renovables/?option=0");
 $conn = new Conexion();
 $conn->connect();
+$especialidad = new Especialidad();
+$especialidad->setConnection($conn->getDB());
 $docente = new Docente();
 $docente->setConnection($conn->getDB());
 $materia = new Materia();
