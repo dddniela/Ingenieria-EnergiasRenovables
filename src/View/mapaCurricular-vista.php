@@ -502,7 +502,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IMG_1245.webp" alt="">
+                    <img class="img-fluid rounded" src="img/IMG_0728.webp" alt="">
                 </div>
             </div>
 
@@ -676,8 +676,12 @@
                                 </ul>
                             </div>
                             <p class="text-dark" style="text-align: justify;">
-                                *Puede variar según el plan de estudios
+                                *Puede variar según el plan de estudios. 
+                                Solicita información en coor_titulacion@veracruz.tecnm.mx/titulacion_erenovables@veracruz.tecnm.mx.
                             </p>
+                            <div class="justify-content-center text-center">
+                                <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/3kpuhew9">Formas de titulación</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
