@@ -172,7 +172,7 @@
 
 
     <div class="justify-content-center text-center">
-        <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/4nhashk2">Descargar
+        <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/4xfyav59">Descargar
                 Retícula</a></p>
     </div>
 
