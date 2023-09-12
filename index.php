@@ -12,7 +12,7 @@ $urlControl = array(
     $_SERVER['SERVER_NAME'] . "/Ingenieria-EnergiasRenovables?option=0"
 );
 
-$carreraID = 8;
+$programaId = 8;
 $conn = new Conexion();
 $conn->connect();
 $docente = new Docente();
