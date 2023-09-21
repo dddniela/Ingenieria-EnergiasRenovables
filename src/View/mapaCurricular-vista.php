@@ -1,6 +1,6 @@
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
-        <img class="w-100 img-fluid" src="img/IMG-47.webp" alt="">
+        <img class="w-100 img-fluid" src="img/banner-mapa.webp" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning shadow-text">Mapa Curricular</h1>
@@ -216,7 +216,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IMG-30.webp" alt="">
+                    <img class="img-fluid rounded" src="img/especialidad.webp" alt="">
                 </div>
             </div>
 
@@ -258,7 +258,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IMG_4446.webp" alt="">
+                    <img class="img-fluid rounded" src="img/desarrollo.webp" alt="">
                 </div>
             </div>
 
@@ -333,7 +333,7 @@
 
                 <div class="col-lg-6 col-12 p-2 shadow-sm">
                     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                        <img class="img-fluid rounded" src="img/ITVER-10.webp" alt="">
+                        <img class="img-fluid rounded" src="img/complementarias.webp" alt="">
                     </div>
                 </div>
             </div>
@@ -386,7 +386,7 @@
 
     <!-- Residencias profesionales -->
     <div class="bg-primary pt-5">
-        <img src="img/IMG_0337.webp" class="w-full" alt="">
+        <img src="img/residencias-1.webp" class="w-full" alt="">
         <section class="darkSection bg-dark">
             <div class="row px-2 g-0">
                 <div class="col-lg-12 col-12 py-4">
@@ -502,7 +502,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IMG_0728.webp" alt="">
+                    <img class="img-fluid rounded" src="img/tutorias.webp" alt="">
                 </div>
             </div>
 
@@ -565,7 +565,7 @@
 
                 <div class="col-lg-6 col-12 p-2 shadow-sm">
                     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                        <img class="img-fluid rounded" src="img/IMG_3886.webp" alt="">
+                        <img class="img-fluid rounded" src="img/verano.webp" alt="">
                     </div>
                 </div>
 
