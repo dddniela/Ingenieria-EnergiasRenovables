@@ -31,20 +31,11 @@ class Materia
             case 'Asignaturas Comunes':
                 $ruta_img = 'img/iconos/asignaturas-comunes.PNG';
                 break;
-            case 'Redes':
-                $ruta_img = 'img/iconos/redes.PNG';
-                break;
-            case 'Bases de datos':
-                $ruta_img = 'img/iconos/bases-datos.PNG';
-                break;
             case 'Electronica':
                 $ruta_img = 'img/iconos/electronica.PNG';
                 break;
             case 'Ingenieria':
                 $ruta_img = 'img/iconos/ingenieria.PNG';
-                break;
-            case 'Sistemas operativos':
-                $ruta_img = 'img/iconos/sistemasop.PNG';
                 break;
             case 'Calculo':
                 $ruta_img = 'img/iconos/calculo.PNG';
@@ -52,26 +43,35 @@ class Materia
             case 'Estadistica':
                 $ruta_img = 'img/iconos/estadistica.PNG';
                 break;
-            case 'Automatas':
-                $ruta_img = 'img/iconos/automatas.PNG';
-                break;
             case 'Investigacion':
                 $ruta_img = 'img/iconos/investigacion.PNG';
                 break;
             case 'Matematicas Aplicada':
                 $ruta_img = 'img/iconos/algebra.PNG';
                 break;
-            case 'Web':
-                $ruta_img = 'img/iconos/programacion-web.PNG';
-                break;
             case 'Administracion':
                 $ruta_img = 'img/iconos/administracion.PNG';
                 break;
-            case 'IA':
-                $ruta_img = 'img/iconos/inteligencia-artificial.PNG';
+            case 'Energias Limpias':
+                $ruta_img = 'img/iconos/egreso2.png';
+                break;
+            case 'Empresa':
+                $ruta_img = 'img/iconos/egreso5.png';
+                break;
+            case 'Proyectos':
+                $ruta_img = 'img/iconos/egreso6.png';
+                break;
+            case 'Calidad':
+                $ruta_img = 'img/iconos/egreso7.png';
+                break;
+            case 'Sustentabilidad':
+                $ruta_img = 'img/iconos/egreso1.png';
+                break;
+            case 'Electrica':
+                $ruta_img = 'img/iconos/egreso4.png';
                 break;
             default:
-                $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';
+                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
                 break;
         }
         return $ruta_img;

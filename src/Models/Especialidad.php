@@ -28,17 +28,53 @@ class Especialidad
     {
         $ruta_img = "";
         switch ($Area) {
-            case 'Sistemas Concurrentes':
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+            case 'Programacion':
+                $ruta_img = 'img/iconos/programacion.PNG';
                 break;
-            case 'Distribuidas':
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+            case 'Asignaturas Comunes':
+                $ruta_img = 'img/iconos/asignaturas-comunes.PNG';
                 break;
-            case 'Transacciones':
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+            case 'Electronica':
+                $ruta_img = 'img/iconos/electronica.PNG';
+                break;
+            case 'Ingenieria':
+                $ruta_img = 'img/iconos/ingenieria.PNG';
+                break;
+            case 'Calculo':
+                $ruta_img = 'img/iconos/calculo.PNG';
+                break;
+            case 'Estadistica':
+                $ruta_img = 'img/iconos/estadistica.PNG';
+                break;
+            case 'Investigacion':
+                $ruta_img = 'img/iconos/investigacion.PNG';
+                break;
+            case 'Matematicas Aplicada':
+                $ruta_img = 'img/iconos/algebra.PNG';
+                break;
+            case 'Administracion':
+                $ruta_img = 'img/iconos/administracion.PNG';
+                break;
+            case 'Energias Limpias':
+                $ruta_img = 'img/iconos/egreso2.png';
+                break;
+            case 'Empresa':
+                $ruta_img = 'img/iconos/egreso5.png';
+                break;
+            case 'Proyectos':
+                $ruta_img = 'img/iconos/egreso6.png';
+                break;
+            case 'Calidad':
+                $ruta_img = 'img/iconos/egreso7.png';
+                break;
+            case 'Sustentabilidad':
+                $ruta_img = 'img/iconos/egreso1.png';
+                break;
+            case 'Electrica':
+                $ruta_img = 'img/iconos/egreso4.png';
                 break;
             default:
-                $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';
+                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
                 break;
         }
         return $ruta_img;

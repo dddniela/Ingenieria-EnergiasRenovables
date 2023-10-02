@@ -37,8 +37,8 @@
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería en Energías Renovables</h1>
-            <h2 class="mainSubtitle text-center font-bold shadow-text">Colabora con la comunidad</h1>
-            <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=5">Explorar</a></p>
+            <h2 class="mainSubtitle text-center font-bold shadow-text">Colabora con la comunidad docente</h1>
+            <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=2">Explorar</a></p>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@
   <div class="row px-2 g-0">
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/renovables-01.webp" alt="">
+        <img class="img-fluid rounded" src="img/estudiar.webp" alt="">
       </div>
     </div>
 
@@ -94,60 +94,54 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/areas/area1.png" alt="">
+          <img class="areaImage items-center" src="img/iconos/egreso2.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Area 1</h3>
-        <p class="areaText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat illo dicta repellendus in laboriosam consectetur error.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Energías Limpias</h3>     
       </div>
     </div>
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/areas/area2.png" alt="">
+          <img class="areaImage items-center" src="img/iconos/egreso6.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Area 2</h3>
-        <p class="areaText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat illo dicta repellendus in laboriosam consectetur error.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Generación de Proyectos</h3>     
       </div>
     </div>
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/areas/area3.png" alt="">
+          <img class="areaImage items-center" src="img/iconos/egreso1.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Area 3</h3>
-        <p class="areaText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat illo dicta repellendus in laboriosam consectetur error.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Sustentabilidad Energética</h3>      
       </div>
     </div>
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/areas/area4.png" alt="">
+          <img class="areaImage items-center" src="img/iconos/egreso4.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Area 4</h3>
-        <p class="areaText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat illo dicta repellendus in laboriosam consectetur error.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Eléctrica</h3>      
       </div>
     </div>
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/areas/area5.png" alt="">
+          <img class="areaImage items-center" src="img/iconos/egreso5.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Area 5</h3>
-        <p class="areaText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat illo dicta repellendus in laboriosam consectetur error.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Administración y Empresa</h3>   
       </div>
     </div>
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/areas/area6.png" alt="">
+          <img class="areaImage items-center" src="img/iconos/egreso7.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Area 6</h3>
-        <p class="areaText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat illo dicta repellendus in laboriosam consectetur error.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Calidad de la energía</h3>     
       </div>
     </div>
 
@@ -169,7 +163,9 @@
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="text-light" style="text-align: justify;">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat illo dicta repellendus in laboriosam consectetur error.
+            El departamento de Eléctrica-Electrónica cuenta con experiencia de más de 55 años formando profesionistas de manera integral con principios éticos, compromiso social, desarrollando competencias para el desarrollo científico y tecnológico en sus programas de estudio. 
+            <br><br>
+            La infraestructura en laboratorios cuenta con las herramientas necesarias para la formación técnica de los estudiantes. Entre las instalaciones para los estudiantes se encuentran: Laboratorio de mediciones eléctricas, Sala de mediciones Electrónicas, Sala de Electromagnetismo, Sala de Análisis de circuitos eléctricos, Sala de máquinas eléctricas, Sala de PLC, Laboratorio de energías renovables, Sala de Sistemas Digitales y Sala FACET.
             </p>
             <a class="btn btn-warning font-bold" href="?option=4" role="button">¡Explorar!</a>
           </div>
@@ -226,10 +222,7 @@
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> Nuestros profesores son impulsores de cambio, son el elemento esencial de
-              nuestra institución, contamos con profesores y profesoras de diversas disciplinas, quienes demuestran diariamente 
-              su compromiso más allá de las aulas. Son profesionales que tienen la facultad de transformar vidas, de impactar a 
-              las futuras generaciones de estudiantes.
+            <p style="text-align: justify;"> Nuestros docentes son impulsores de cambio, son el elemento esencial de nuestra institución, contamos con profesionales de diversas disciplinas, quienes demuestran diariamente su compromiso más allá de las aulas. Son personas que tienen la facultad de transformar vidas e impactar a las futuras generaciones de estudiantes.
             </p>
             <a class="btn btn-warning font-bold" href="?option=2" role="button">¡Conocer docentes!</a>
           </div>
@@ -246,7 +239,7 @@
   <h2 class="sectionTitle text-center font-bold m-3">Enlaces</h2>
   <div class="sectionSeparator"></div>
 
-  <div class="row g-0">
+  <div class="row g-0 justify-content-center">
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
@@ -265,18 +258,6 @@
         <h3 class="areaTitle text-center font-bold text-xl">TECNM Veracruz</h3>
       </div>
     </div>
-
-    <div class="col-lg-4 col-sm-6 text-center p-3">
-      <div class="area shadow-sm p-4 rounded-3">
-        <a href="?option=5">
-          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/boton-comunidades.webp" alt="">
-        </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Comunidades</h3>
-      </div>
-    </div>
-
-    
-
   </div>
 </section>
 <!-- Fin Enlaces -->
@@ -340,7 +321,7 @@
         </a>
         <a class="mx-2" href="https://x.com/TecNM_Veracruz" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/"
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/x.png"
               alt="">
           </div>
         </a>
@@ -354,6 +335,8 @@
       </div>
     </div>
   </div>
+
+  <!--
   <div class="row g-0">
     <h4 class="sectionTitle  text-center font-bold">Coordinación electrónica</h4>
     <div class="d-flex flex-row justify-content-center">
@@ -363,7 +346,7 @@
           <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="width: 40px" src="img/iconos/facebook.PNG"
             alt="">
         </div>
-      </a>
+      </a>-->
       <!--<a class="mx-2" href="https://www.youtube.com/channel/UCYSUOZ6V9YRGviVvwaXOcjw" target="_blank"
           style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">

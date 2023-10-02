@@ -200,8 +200,7 @@
                                 profesional de los estudiantes de las instituciones adscritas al Tecnológico Nacional de
                                 México.
                             </p>
-                            <h5 class="font-bold text-warning" style="text-align: justify">Especialidades que han
-                                existido:</h5>
+                            <h5 class="font-bold text-warning" style="text-align: justify">Especialidades vigentes:</h5>
                             <div class="bg-dark">
                                 <ul class="m-3 text-light font-bold" style="text-align: justify">
                                     <?php
@@ -270,8 +269,7 @@
                             <div class="sectionSeparator"></div>
                         </div>
                         <div class="col-12" style="text-align: center;">
-                            <p style="text-align: justify;"> El plan de estudios de la carrera de ingeniería en sistemas
-                                computacionales ofrece
+                            <p style="text-align: justify;"> El plan de estudios de la carrera de Ingeniería en Energías Renovables ofrece
                                 un desarrollo integral y profesional con el objetivo de que el estudiante se pueda
                                 desenvolver en diferentes áreas
                                 de la tecnología, ofreciendo soluciones óptimas e innovadoras.
@@ -386,7 +384,7 @@
 
     <!-- Residencias profesionales -->
     <div class="bg-primary pt-5">
-        <img src="img/residencias-1.webp" class="w-full" alt="">
+        <img src="img/intro-residencias.webp" class="w-full" alt="">
         <section class="darkSection bg-dark">
             <div class="row px-2 g-0">
                 <div class="col-lg-12 col-12 py-4">
@@ -576,7 +574,7 @@
 
     <!-- Titulación -->
     <div class="bg-primary pt-5">
-        <img src="img/ITVER-7.webp" class="w-full" alt="">
+        <img src="img/intro-titulacion.webp" class="w-full" alt="">
         <section class="darkSection bg-dark">
             <div class="row px-2 g-0">
                 <div class="col-lg-12 col-12 py-4">
@@ -675,9 +673,11 @@
                                     <li>Presentar acto protocolario del proyecto de titulación integral.</li>
                                 </ul>
                             </div>
-                            <p class="text-dark" style="text-align: justify;">
-                                *Puede variar según el plan de estudios. 
-                                Solicita información en coor_titulacion@veracruz.tecnm.mx/titulacion_erenovables@veracruz.tecnm.mx.
+                            <p class="text-dark text-break" style="text-align: left;">
+                                *Puede variar según el plan de estudios.<br><br>
+                                Solicita información en:<br>
+                                coor_titulacion@veracruz.tecnm.mx <br>
+                                titulacion_erenovables@veracruz.tecnm.mx.
                             </p>
                             <div class="justify-content-center text-center">
                                 <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/3kpuhew9">Formas de titulación</a></p>
