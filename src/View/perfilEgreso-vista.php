@@ -4,6 +4,7 @@ $seccion = new Seccion();
 $seccion->setConnection($conn->getDB());
 
 $objetivo = $seccion->getObjetivo();
+$objetivo = $objetivo['data'];
 ?>
 <!-- Portada -->
 <div class="row g-0">
@@ -40,7 +41,7 @@ $objetivo = $seccion->getObjetivo();
                         <p style="text-align: justify;">
                             <?php
                             if ($objetivo) {
-                                echo $objetivo->descripcion;
+                                echo $objetivo['descripcion'];
                             }
                             ?>
                         </p>

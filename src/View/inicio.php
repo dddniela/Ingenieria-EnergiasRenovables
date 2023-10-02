@@ -191,23 +191,18 @@
       <div class="galleryContainer bg-light">
         <div class="row g-0">
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/cinthyaAlejandraSosaVillalobos.webp"
-              alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2"
-              src="img/Docentes/luisEduardoRodriguezMota.webp" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'almaGenovevaCastroValdes.webp'; ?>" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'marycarmenAranaAltamirano.webp'; ?>" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/mauricioHernandezYanga.webp"
-              alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/blancaIrisZarateSantiago.webp" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'franciscoJavierGomezGonzalez.webp'; ?>" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'joseAgustinColinaTorres.webp'; ?>" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/almaGenovevacastroValdes.webp"
-              alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/joseDeJesusRomeroCastro.webp"
-              alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'blancaIrisZarateSantiago.webp'; ?>" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'jesusMoralesHernandez.webp'; ?>" alt="">
           </div>
 
         </div>
