@@ -28,6 +28,9 @@ if(isset($_GET['option'])){
         case 4:
             include_once "src/View/conocenos-vista.php";
             break;
+        case 5:
+            include_once "src/View/comunidades-vista.php";
+            break;
         default:
             include_once "src/View/inicio.php";
             break;
