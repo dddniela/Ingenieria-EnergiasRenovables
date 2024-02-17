@@ -16,6 +16,7 @@ $programaId = 8;
 $api = 'http://localhost:3010';
 $PATH_DOCENTE =  $GLOBALS['api'] . '/imagenes/Ing-EER/docentes/';
 $PATH_COMUNIDAD =  $GLOBALS['api'] . '/imagenes/Ing-EER/comunidades/';
+$PATH_ICONO =  $GLOBALS['api'] . '/imagenes/Ing-EER/iconos/';
 
 $conn = new Conexion();
 $conn->connect();

@@ -59,55 +59,58 @@ class Especialidad
         $ruta_img = "";
         switch ($Area) {
             case 'Programacion':
-                $ruta_img = 'img/iconos/programacion.PNG';
+                $ruta_img = 'programacion.PNG';
                 break;
             case 'Asignaturas Comunes':
-                $ruta_img = 'img/iconos/asignaturas-comunes.PNG';
+                $ruta_img = 'asignaturas-comunes.PNG';
                 break;
             case 'Electronica':
-                $ruta_img = 'img/iconos/electronica.PNG';
+                $ruta_img = 'electronica.PNG';
                 break;
             case 'Ingenieria':
-                $ruta_img = 'img/iconos/ingenieria.PNG';
+                $ruta_img = 'ingenieria.PNG';
                 break;
             case 'Calculo':
-                $ruta_img = 'img/iconos/calculo.PNG';
+                $ruta_img = 'calculo.PNG';
                 break;
             case 'Estadistica':
-                $ruta_img = 'img/iconos/estadistica.PNG';
+                $ruta_img = 'estadistica.PNG';
                 break;
             case 'Investigacion':
-                $ruta_img = 'img/iconos/investigacion.PNG';
+                $ruta_img = 'investigacion.PNG';
                 break;
             case 'Matematicas Aplicada':
-                $ruta_img = 'img/iconos/algebra.PNG';
+                $ruta_img = 'algebra.PNG';
                 break;
             case 'Administracion':
-                $ruta_img = 'img/iconos/administracion.PNG';
+                $ruta_img = 'administracion.PNG';
                 break;
             case 'Energias Limpias':
-                $ruta_img = 'img/iconos/egreso2.png';
+                $ruta_img = 'egreso2.png';
                 break;
             case 'Empresa':
-                $ruta_img = 'img/iconos/egreso5.png';
+                $ruta_img = 'egreso5.png';
                 break;
             case 'Proyectos':
-                $ruta_img = 'img/iconos/egreso6.png';
+                $ruta_img = 'egreso6.png';
                 break;
             case 'Calidad':
-                $ruta_img = 'img/iconos/egreso7.png';
+                $ruta_img = 'egreso7.png';
                 break;
             case 'Sustentabilidad':
-                $ruta_img = 'img/iconos/egreso1.png';
+                $ruta_img = 'egreso1.png';
                 break;
             case 'Electrica':
-                $ruta_img = 'img/iconos/egreso4.png';
+                $ruta_img = 'egreso4.png';
                 break;
             default:
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+                $ruta_img = 'circuloDeLectura.PNG';
                 break;
         }
-        return $ruta_img;
+        $type = pathinfo($ruta_img, PATHINFO_EXTENSION);
+        $urlImagen = file_get_contents($GLOBALS['PATH_ICONO'] . $ruta_img);
+        $urlImagen = 'data:image/' . $type . ';base64,' . base64_encode($urlImagen);
+        return $urlImagen;
     }
 
     function imprimirNombres()
